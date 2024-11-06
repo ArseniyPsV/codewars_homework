@@ -1,0 +1,5 @@
+module Codewars.Kata.Vowel where
+import Data.List
+
+getCount :: String -> Int
+getCount = length . filter (`elem` "aeiouAEIOU")
